@@ -10,8 +10,8 @@ def second_challenge
         data.each do |food_type, value|
 
             puts value.flatten
-      end
+        end
 
-  end
+    end
 
 end
