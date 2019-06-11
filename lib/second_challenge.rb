@@ -8,8 +8,9 @@ def second_challenge
 
     groceries.each do |grocery_type, data|
         data.each do |food_type, value|
-
-            puts value
+            value.each do |array, food|
+                puts food.flatten
+            end
         end
 
     end
